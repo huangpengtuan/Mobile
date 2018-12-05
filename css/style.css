@@ -1276,6 +1276,42 @@ i.fa.fa-quote-right{
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+.telBox{
+	width: 100%;
+	height: 4rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.telBox_container{
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem 5%;
+}
+.telBox_Btn01{
+	background-color: #999C9E;
+	height: 3rem;
+	line-height: 3rem;
+	color: #101010;
+	text-align: center;
+	width: 45%;
+	margin-right:5%;
+	float: left;
+	border-radius: 6px;
+}
+.telBox_Btn02{
+	background-color: #4DD0E1;
+	height: 3rem;
+	line-height: 3rem;
+	color: #fff;
+	text-align: center;
+	width: 45%;
+	margin-left:5%;
+	float: left;
+	border-radius: 6px;
+}
 /*-- //to-top --*/
 /*-- responsive --*/
 @media(max-width:1080px){
@@ -1437,6 +1473,15 @@ i.fa.fa-quote-right{
 	.contact-form input[type="text"], .contact-form input[type="email"] {
 		width: 48%;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}	
 }
 @media(max-width:640px){
 	.agileits-banner-info h3,.agileits-banner-info1 h3,.agileits-banner-info2 h3,.agileits-banner-info3 h3,.agileits-banner-info4 h3{
@@ -1487,6 +1532,15 @@ i.fa.fa-quote-right{
 	.callbacks_tabs {
 		left: 41%;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:600px){
 	.testimonial-img-grid {
@@ -1498,6 +1552,15 @@ i.fa.fa-quote-right{
 	.contact-form input[type="text"], .contact-form input[type="email"] {
 		width: 47%;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:568px){
 	.flip-container, .back {
@@ -1515,6 +1578,15 @@ i.fa.fa-quote-right{
 	.w3-agile-address-left {
 		width: 14%;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:480px){
 	.agileits-banner-info h3, .agileits-banner-info1 h3, .agileits-banner-info2 h3, .agileits-banner-info3 h3, .agileits-banner-info4 h3 {
@@ -1553,10 +1625,19 @@ i.fa.fa-quote-right{
 	.back h4 {
 		letter-spacing: 2px;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:414px){
 	.w3layouts-logo h1 a {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.agileits-banner-info h4, .agileits-banner-info1 h4, .agileits-banner-info2 h4, .agileits-banner-info3 h4, .agileits-banner-info4 h4 {
 		letter-spacing: 9px;
@@ -1649,6 +1730,15 @@ i.fa.fa-quote-right{
 	.w3-agile-subscribe form input[type="email"] {
 		width: 50% !important;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:384px){
 	.agile-news-img {
@@ -1665,6 +1755,15 @@ i.fa.fa-quote-right{
 	.map iframe {
 		min-height: 200px;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:375px){
 	.flip-container, .back {
@@ -1683,6 +1782,15 @@ i.fa.fa-quote-right{
 	.agileits-services-grid:nth-child(2){
 		margin:2em 0 0 0;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 @media(max-width:320px){
 	.w3layouts-logo h1 a {
@@ -1760,5 +1868,14 @@ i.fa.fa-quote-right{
 	.contact-form input[type="submit"] {
 		padding: 0.5em 2em;
 	}
+	.telBox{
+		width: 100%;
+		height: 4rem;
+		background-color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+	}		
 }
 /*-- //responsive --*/
