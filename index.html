@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>酷快修，最专业的手机维修</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<meta name="keywords" content="" />
+<meta name="description" content="酷快修" />
+<meta name="author" content="酷快修"/>
+<meta name="keywords" content="酷快修" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -469,12 +471,20 @@
 		<div class="container">
 			<div class="telBox_container">
 				<a href="tel:010-56194777" class="telBox_Btn01">电话咨询 </a>
-				<div class="telBox_Btn02">了解更多</div>
+				<div class="telBox_Btn02 seemore">了解更多</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
 	<!-- //电话 -->	
+	<!-- 二维码 -->
+	<div class="codeBox">
+		<div class="codeImgBox">
+			<img src="images/code.jpg" class="codeImg"/>	
+			<img src="images/close02.png" class="codeImgBtn"/>
+		</div>
+	</div>
+	<!-- //二维码 -->	
 	<script src="js/responsiveslides.min.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
@@ -494,6 +504,14 @@
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
+			
+		    $('.seemore').click(function(){
+		    	$('.codeBox').fadeIn()
+		    })
+		    $('.codeImgBtn').click(function(){
+		    	$('.codeBox').fadeOut()
+		    })			
+			
 	</script>
 <!-- //here ends scrolling icon -->
 </body>	
